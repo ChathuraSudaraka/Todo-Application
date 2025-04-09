@@ -7,6 +7,7 @@ services:
       - .:/var/www/html
     environment:
       - APACHE_DOCUMENT_ROOT=/var/www/html
+      - DOCKER_ENV=true
     depends_on:
       - db
 
