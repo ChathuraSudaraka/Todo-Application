@@ -1,6 +1,6 @@
 <?php
 // Database connection configuration
-define('DB_SERVER', 'db');
+define('DB_SERVER', 'localhost'); // Using localhost for MariaDB
 define('DB_USERNAME', 'phpuser');
 define('DB_PASSWORD', 'password');
 define('DB_NAME', 'vps');
