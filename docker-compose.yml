@@ -15,7 +15,7 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: password
-      MYSQL_DATABASE: php
+      MYSQL_DATABASE: vps
       MYSQL_USER: phpuser
       MYSQL_PASSWORD: password
     ports:
